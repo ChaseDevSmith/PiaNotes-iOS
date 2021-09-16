@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2EF38D26F3CB8C0025730E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF38C26F3CB8C0025730E /* Tests_iOS.swift */; };
+		AB2EF38F26F3CB8C0025730E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF38E26F3CB8C0025730E /* Tests_iOSLaunchTests.swift */; };
+		AB2EF39926F3CB8C0025730E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF39826F3CB8C0025730E /* Tests_macOS.swift */; };
+		AB2EF39B26F3CB8C0025730E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF39A26F3CB8C0025730E /* Tests_macOSLaunchTests.swift */; };
+		AB2EF39C26F3CB8C0025730E /* PIANOTES5_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF37626F3CB890025730E /* PIANOTES5_0App.swift */; };
+		AB2EF39D26F3CB8C0025730E /* PIANOTES5_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF37626F3CB890025730E /* PIANOTES5_0App.swift */; };
+		AB2EF39E26F3CB8C0025730E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF37726F3CB890025730E /* ContentView.swift */; };
+		AB2EF39F26F3CB8C0025730E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF37726F3CB890025730E /* ContentView.swift */; };
+		AB2EF3A026F3CB8C0025730E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF37826F3CB8B0025730E /* Assets.xcassets */; };
+		AB2EF3A126F3CB8C0025730E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF37826F3CB8B0025730E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2EF38926F3CB8C0025730E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2EF37126F3CB880025730E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2EF37C26F3CB8B0025730E;
+			remoteInfo = "PIANOTES5.0 (iOS)";
+		};
+		AB2EF39526F3CB8C0025730E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2EF37126F3CB880025730E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2EF38226F3CB8C0025730E;
+			remoteInfo = "PIANOTES5.0 (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2EF37626F3CB890025730E /* PIANOTES5_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIANOTES5_0App.swift; sourceTree = "<group>"; };
+		AB2EF37726F3CB890025730E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB2EF37826F3CB8B0025730E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2EF37D26F3CB8C0025730E /* PIANOTES5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIANOTES5.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2EF38326F3CB8C0025730E /* PIANOTES5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIANOTES5.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2EF38826F3CB8C0025730E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2EF38C26F3CB8C0025730E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AB2EF38E26F3CB8C0025730E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AB2EF39426F3CB8C0025730E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2EF39826F3CB8C0025730E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AB2EF39A26F3CB8C0025730E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2EF37A26F3CB8B0025730E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF38026F3CB8C0025730E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF38526F3CB8C0025730E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF39126F3CB8C0025730E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2EF37026F3CB880025730E = {
+			isa = PBXGroup;
+			children = (
+				AB2EF37526F3CB890025730E /* Shared */,
+				AB2EF38B26F3CB8C0025730E /* Tests iOS */,
+				AB2EF39726F3CB8C0025730E /* Tests macOS */,
+				AB2EF37E26F3CB8C0025730E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2EF37526F3CB890025730E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF37626F3CB890025730E /* PIANOTES5_0App.swift */,
+				AB2EF37726F3CB890025730E /* ContentView.swift */,
+				AB2EF37826F3CB8B0025730E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AB2EF37E26F3CB8C0025730E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF37D26F3CB8C0025730E /* PIANOTES5.0.app */,
+				AB2EF38326F3CB8C0025730E /* PIANOTES5.0.app */,
+				AB2EF38826F3CB8C0025730E /* Tests iOS.xctest */,
+				AB2EF39426F3CB8C0025730E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2EF38B26F3CB8C0025730E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF38C26F3CB8C0025730E /* Tests_iOS.swift */,
+				AB2EF38E26F3CB8C0025730E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AB2EF39726F3CB8C0025730E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF39826F3CB8C0025730E /* Tests_macOS.swift */,
+				AB2EF39A26F3CB8C0025730E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2EF37C26F3CB8B0025730E /* PIANOTES5.0 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2EF3A426F3CB8C0025730E /* Build configuration list for PBXNativeTarget "PIANOTES5.0 (iOS)" */;
+			buildPhases = (
+				AB2EF37926F3CB8B0025730E /* Sources */,
+				AB2EF37A26F3CB8B0025730E /* Frameworks */,
+				AB2EF37B26F3CB8B0025730E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIANOTES5.0 (iOS)";
+			productName = "PIANOTES5.0 (iOS)";
+			productReference = AB2EF37D26F3CB8C0025730E /* PIANOTES5.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2EF38226F3CB8C0025730E /* PIANOTES5.0 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2EF3A726F3CB8C0025730E /* Build configuration list for PBXNativeTarget "PIANOTES5.0 (macOS)" */;
+			buildPhases = (
+				AB2EF37F26F3CB8C0025730E /* Sources */,
+				AB2EF38026F3CB8C0025730E /* Frameworks */,
+				AB2EF38126F3CB8C0025730E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIANOTES5.0 (macOS)";
+			productName = "PIANOTES5.0 (macOS)";
+			productReference = AB2EF38326F3CB8C0025730E /* PIANOTES5.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2EF38726F3CB8C0025730E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2EF3AA26F3CB8C0025730E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AB2EF38426F3CB8C0025730E /* Sources */,
+				AB2EF38526F3CB8C0025730E /* Frameworks */,
+				AB2EF38626F3CB8C0025730E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2EF38A26F3CB8C0025730E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AB2EF38826F3CB8C0025730E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AB2EF39326F3CB8C0025730E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2EF3AD26F3CB8C0025730E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AB2EF39026F3CB8C0025730E /* Sources */,
+				AB2EF39126F3CB8C0025730E /* Frameworks */,
+				AB2EF39226F3CB8C0025730E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2EF39626F3CB8C0025730E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AB2EF39426F3CB8C0025730E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2EF37126F3CB880025730E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AB2EF37C26F3CB8B0025730E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AB2EF38226F3CB8C0025730E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AB2EF38726F3CB8C0025730E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AB2EF37C26F3CB8B0025730E;
+					};
+					AB2EF39326F3CB8C0025730E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AB2EF38226F3CB8C0025730E;
+					};
+				};
+			};
+			buildConfigurationList = AB2EF37426F3CB880025730E /* Build configuration list for PBXProject "PIANOTES5.0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2EF37026F3CB880025730E;
+			productRefGroup = AB2EF37E26F3CB8C0025730E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2EF37C26F3CB8B0025730E /* PIANOTES5.0 (iOS) */,
+				AB2EF38226F3CB8C0025730E /* PIANOTES5.0 (macOS) */,
+				AB2EF38726F3CB8C0025730E /* Tests iOS */,
+				AB2EF39326F3CB8C0025730E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2EF37B26F3CB8B0025730E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF3A026F3CB8C0025730E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF38126F3CB8C0025730E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF3A126F3CB8C0025730E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF38626F3CB8C0025730E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF39226F3CB8C0025730E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2EF37926F3CB8B0025730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF39E26F3CB8C0025730E /* ContentView.swift in Sources */,
+				AB2EF39C26F3CB8C0025730E /* PIANOTES5_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF37F26F3CB8C0025730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF39F26F3CB8C0025730E /* ContentView.swift in Sources */,
+				AB2EF39D26F3CB8C0025730E /* PIANOTES5_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF38426F3CB8C0025730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF38F26F3CB8C0025730E /* Tests_iOSLaunchTests.swift in Sources */,
+				AB2EF38D26F3CB8C0025730E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2EF39026F3CB8C0025730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EF39B26F3CB8C0025730E /* Tests_macOSLaunchTests.swift in Sources */,
+				AB2EF39926F3CB8C0025730E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2EF38A26F3CB8C0025730E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2EF37C26F3CB8B0025730E /* PIANOTES5.0 (iOS) */;
+			targetProxy = AB2EF38926F3CB8C0025730E /* PBXContainerItemProxy */;
+		};
+		AB2EF39626F3CB8C0025730E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2EF38226F3CB8C0025730E /* PIANOTES5.0 (macOS) */;
+			targetProxy = AB2EF39526F3CB8C0025730E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB2EF3A226F3CB8C0025730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB2EF3A326F3CB8C0025730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB2EF3A526F3CB8C0025730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.PIANOTES5-0";
+				PRODUCT_NAME = PIANOTES5.0;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2EF3A626F3CB8C0025730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.PIANOTES5-0";
+				PRODUCT_NAME = PIANOTES5.0;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2EF3A826F3CB8C0025730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.PIANOTES5-0";
+				PRODUCT_NAME = PIANOTES5.0;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB2EF3A926F3CB8C0025730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.PIANOTES5-0";
+				PRODUCT_NAME = PIANOTES5.0;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB2EF3AB26F3CB8C0025730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PIANOTES5.0 (iOS)";
+			};
+			name = Debug;
+		};
+		AB2EF3AC26F3CB8C0025730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PIANOTES5.0 (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2EF3AE26F3CB8C0025730E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PIANOTES5.0 (macOS)";
+			};
+			name = Debug;
+		};
+		AB2EF3AF26F3CB8C0025730E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W45X8B5CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PIANOTES5.0 (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2EF37426F3CB880025730E /* Build configuration list for PBXProject "PIANOTES5.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2EF3A226F3CB8C0025730E /* Debug */,
+				AB2EF3A326F3CB8C0025730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2EF3A426F3CB8C0025730E /* Build configuration list for PBXNativeTarget "PIANOTES5.0 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2EF3A526F3CB8C0025730E /* Debug */,
+				AB2EF3A626F3CB8C0025730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2EF3A726F3CB8C0025730E /* Build configuration list for PBXNativeTarget "PIANOTES5.0 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2EF3A826F3CB8C0025730E /* Debug */,
+				AB2EF3A926F3CB8C0025730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2EF3AA26F3CB8C0025730E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2EF3AB26F3CB8C0025730E /* Debug */,
+				AB2EF3AC26F3CB8C0025730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2EF3AD26F3CB8C0025730E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2EF3AE26F3CB8C0025730E /* Debug */,
+				AB2EF3AF26F3CB8C0025730E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2EF37126F3CB880025730E /* Project object */;
+}
