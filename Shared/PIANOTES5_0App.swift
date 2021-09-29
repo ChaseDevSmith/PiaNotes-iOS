@@ -1,17 +1,18 @@
-//
-//  PIANOTES5_0App.swift
-//  Shared
-//
-//  Created by Chase Smith on 9/16/21.
-//
-
 import SwiftUI
+import Firebase
 
 @main
 struct PIANOTES5_0App: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel = RootViewModel()
+            let coordinator = RootCoordinator(viewModel: viewModel)
+
+            coordinator.start()
         }
     }
 }
